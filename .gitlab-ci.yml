@@ -8,8 +8,7 @@ eslint:
     paths:
       - node_modules/
   script:
-    - npm install --quiet eslint@$(node -p 'require("./package.json").devDependencies.eslint')
-    - npm install --quiet babel-eslint@$(node -p 'require("./package.json").devDependencies["babel-eslint"]')
+    - npm install --quiet
     - npm run -s eslint
   tags:
     - docker
