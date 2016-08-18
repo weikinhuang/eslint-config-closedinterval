@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
-    "preversion": "sh ./util/preversion.sh"
+    "update-readme": "sh ./util/preversion.sh"
   },
   "private": true,
   "repository": {
