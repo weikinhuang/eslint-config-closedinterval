@@ -21,8 +21,6 @@ module.exports = {
   rules: {
     // Possible Errors
     'no-console': 'off',
-    'no-debugger': 'error',
-    'no-unsafe-finally': 'error',
     'valid-jsdoc': [
       'error',
       {
@@ -326,7 +324,11 @@ module.exports = {
       'error',
       'before'
     ],
+    'no-duplicate-imports': 'error',
     'prefer-const': 'warn',
+    'prefer-rest-params': 'error',
+    'rest-spread-spacing': 'error',
+    'sort-imports': 'off',
     'template-curly-spacing': [
       'error',
       'never'
