@@ -9,3 +9,4 @@ sed -i "s#\(npm install --save-dev\).\+eslint\@.\+\$#\1 $(node -p 'require("./pa
 )#" README.md
 
 git add README.md
+echo 'Update devDependencies in README.md' | git commit -m -
