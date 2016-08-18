@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-closedinterval",
+  "version": "1.0.0",
+  "description": "eslint preset for ClosedInterval",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.weikinhuang.com:8722/closedinterval/eslint-config.git"
+  },
+  "author": "Wei Kin Huang",
+  "license": "MIT",
+  "homepage": "https://git.weikinhuang.com/closedinterval/eslint-config",
+  "peerDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.3.1",
+    "eslint-plugin-flowtype": "^2.7.1",
+    "eslint-plugin-react": "^6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1"
+  }
+}
