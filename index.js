@@ -326,7 +326,6 @@ module.exports = {
     ],
     'no-duplicate-imports': 'error',
     'prefer-const': 'warn',
-    'prefer-rest-params': 'error',
     'rest-spread-spacing': 'error',
     'sort-imports': 'off',
     'template-curly-spacing': [
