@@ -7,3 +7,5 @@ sed -i "s#\(npm install --save-dev\).\+eslint\@.\+\$#\1 $(node -p 'require("./pa
   | tr '\n' ' ' \
   | sort
 )#" README.md
+
+git add README.md || true
