@@ -20,8 +20,9 @@ npm-publish:
   script:
     - echo "$NPM_AUTH" >> ~/.npmrc
     - echo "unsafe-perm=true" >> ~/.npmrc
-    - npm publish
+    - ls -la
+    - npm run prepublish
   only:
-    - tags
+    - master
   tags:
     - docker
