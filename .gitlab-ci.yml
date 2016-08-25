@@ -1,5 +1,6 @@
 stages:
   - test
+  - publish
 
 eslint:
   stage: test
@@ -10,5 +11,16 @@ eslint:
   script:
     - npm install --quiet
     - npm run -s eslint
+  tags:
+    - docker
+
+npm-publish:
+  stage: publish
+  image: node:6
+  script:
+    - echo "$NPM_AUTH" >> ~/.npmrc
+    - npm publish
+  only:
+    - tags
   tags:
     - docker
