@@ -7,4 +7,7 @@ node -e '
   delete pkg.homepage;
 
   console.log(JSON.stringify(pkg, null, 2));
-' > package.json
+' > package.json-tmp
+
+rm -f package.json
+mv package.json-tmp package.json
