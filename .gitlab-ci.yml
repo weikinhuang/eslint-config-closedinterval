@@ -18,10 +18,9 @@ npm-publish:
   stage: publish
   image: node:6
   script:
-    - echo "$NPM_AUTH" >> ~/.npmrc
     - echo "unsafe-perm=true" >> ~/.npmrc
     - npm publish
   only:
-    - master
+    - tags
   tags:
     - docker
