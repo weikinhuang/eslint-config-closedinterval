@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
-    "version": "echo Updating README.md && bash util/version.sh"
+    "version": "echo Updating README.md && bash util/version.sh",
+    "prepublish": "bash util/prepublish.sh"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "ssh://git@git.weikinhuang.com:8722/closedinterval/eslint-config.git"
