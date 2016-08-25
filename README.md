@@ -10,7 +10,7 @@ npm install --save-dev git+ssh://git@git.weikinhuang.com:8722/closedinterval/esl
 
 ```sh
 // Also install required peer dependencies
-npm install --save-dev babel-eslint@^6.1.2 eslint@^3.3.1 eslint-plugin-flowtype@^2.7.1 eslint-plugin-react@^6.1.2 
+npm install --save-dev babel-eslint@^6.1.2 eslint@^3.3.1 eslint-plugin-flowtype@^2.11.1 eslint-plugin-react@^6.1.2 
 ```
 
 ## Usage
