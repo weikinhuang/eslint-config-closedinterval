@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install --save-dev git+ssh://git@git.weikinhuang.com:8722/closedinterval/eslint-config.git
+npm install --save-dev eslint-config-closedinterval
 ```
 
 ```sh
