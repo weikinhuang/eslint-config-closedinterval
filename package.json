@@ -18,15 +18,11 @@
     "npm": ">=3.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.3.1",
-    "eslint-plugin-flowtype": "^2.7.1",
-    "eslint-plugin-react": "^6.1.2"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.3.1",
-    "eslint-plugin-flowtype": "^2.11.1",
-    "eslint-plugin-react": "^6.1.2"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
   }
 }

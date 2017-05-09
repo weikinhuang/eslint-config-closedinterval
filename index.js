@@ -14,10 +14,6 @@ module.exports = {
     es6: true
   },
   extends: 'eslint:recommended',
-  plugins: [
-    'react',
-    'flowtype'
-  ],
   rules: {
     // Possible Errors
     'no-console': 'off',
