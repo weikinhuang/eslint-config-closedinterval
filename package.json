@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-closedinterval",
-  "version": "2.1.3",
+  "version": "3.0.0",
   "description": "eslint preset for ClosedInterval",
   "main": "index.js",
   "scripts": {
