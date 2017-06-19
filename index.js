@@ -93,7 +93,6 @@ module.exports = {
     'no-unused-expressions': 'warn',
     'no-useless-call': 'error',
     'no-useless-concat': 'error',
-    'no-useless-escape': 'error',
     'no-void': 'error',
     'no-with': 'error',
     radix: 'error',
@@ -122,16 +121,8 @@ module.exports = {
     'no-label-var': 'error',
     'no-shadow': 'error',
     'no-shadow-restricted-names': 'error',
-    'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'error',
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'after-used'
-      }
-    ],
     'no-use-before-define': 'error',
 
     // Node.js and CommonJS
@@ -209,7 +200,6 @@ module.exports = {
     'new-parens': 'error',
     'no-array-constructor': 'error',
     'no-lonely-if': 'error',
-    'no-mixed-spaces-and-tabs': 'error',
     'no-multiple-empty-lines': [
       'error',
       {
