@@ -10,7 +10,7 @@ npm install --save-dev eslint-config-closedinterval
 
 ```sh
 // Also install required peer dependencies
-npm install --save-dev babel-eslint@^7.2.3eslint@^3.19.0 
+npm install --save-dev babel-eslint@^7.2.3eslint@^4.0.0 
 ```
 
 ## Usage
